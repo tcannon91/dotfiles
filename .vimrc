@@ -88,3 +88,6 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 	filetype plugin indent on
 endif
+
+" Hit escape to clear highlighted search
+nnoremap <esc> :noh<return><esc>
