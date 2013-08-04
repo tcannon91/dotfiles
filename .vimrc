@@ -49,8 +49,6 @@ set hlsearch
 set ignorecase
 " Highlight dynamically as pattern is typed
 set incsearch
-" Always show status line
-set laststatus=2
 " Disable error bells
 set noerrorbells
 " Don’t reset cursor to start of line when moving around.
@@ -90,4 +88,4 @@ if has("autocmd")
 endif
 
 " Hit escape to clear highlighted search
-nnoremap <esc> :noh<return><esc>
+nnoremap <esc> :noh<esc>
