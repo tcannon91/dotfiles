@@ -39,7 +39,9 @@ syntax on
 " Highlight current line
 set cursorline
 " Make tabs as wide as three spaces
+set shiftwidth=3
 set tabstop=3
+set softtabstop=3
 " Show “invisible” characters
 set lcs=tab:▸\ 
 set list
@@ -86,6 +88,3 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 	filetype plugin indent on
 endif
-
-" Hit escape to clear highlighted search
-nnoremap <esc> :noh<esc>
