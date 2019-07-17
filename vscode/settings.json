@@ -1,0 +1,34 @@
+{
+    "workbench.colorTheme": "Cobalt2",
+    "workbench.editor.enablePreview": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 12,
+    "editor.lineHeight": 20,
+    "editor.fontWeight": "400",
+    "editor.renderWhitespace": "all",
+    "editor.formatOnSave": false,
+    "editor.quickSuggestions": {
+        "comments": true,
+        "other": true,
+        "string": true
+    },
+    "editor.tabCompletion": "on",
+
+    "editor.wordWrap": "on",
+
+    "[javascript]": {
+        "editor.formatOnSave": true,
+    },
+    "[scss]": {
+        "editor.formatOnSave": true,
+    },
+
+    "gitlab-ci-validator.gitLabURL": "https://gitlab.rmn.com",
+    "gitlab.instanceUrl": "https://gitlab.rmn.com",
+    "breadcrumbs.enabled": false,
+    "extensions.ignoreRecommendations": false,
+    "explorer.autoReveal": false,
+    "problems.autoReveal": false,
+}
