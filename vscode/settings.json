@@ -2,7 +2,8 @@
     "workbench.colorTheme": "Cobalt2",
     "workbench.editor.enablePreview": false,
     "workbench.startupEditor": "newUntitledFile",
-    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "explorer.openEditors.visible": 0,
+    "editor.fontFamily": "'Operator Mono', 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.fontSize": 12,
     "editor.lineHeight": 20,
@@ -15,20 +16,56 @@
         "string": true
     },
     "editor.tabCompletion": "on",
-
     "editor.wordWrap": "on",
-
     "[javascript]": {
         "editor.formatOnSave": true,
     },
     "[scss]": {
         "editor.formatOnSave": true,
     },
-
-    "gitlab-ci-validator.gitLabURL": "https://gitlab.rmn.com",
-    "gitlab.instanceUrl": "https://gitlab.rmn.com",
     "breadcrumbs.enabled": false,
     "extensions.ignoreRecommendations": false,
     "explorer.autoReveal": false,
     "problems.autoReveal": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.activeIconPack": "react_redux",
+    "gitlens.menus": {
+        "editor": {
+            "blame": false,
+            "clipboard": true,
+            "compare": true,
+            "details": false,
+            "history": false,
+            "remote": false
+        },
+        "editorGroup": {
+            "blame": false,
+            "compare": false
+        },
+        "editorTab": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true
+        },
+        "explorer": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true
+        },
+        "scmGroup": {
+            "compare": true,
+            "openClose": true,
+            "stash": true,
+            "stashInline": true
+        },
+        "scmItem": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true,
+            "stash": true
+        }
+    },
 }

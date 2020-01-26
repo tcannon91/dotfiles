@@ -1,0 +1,12 @@
+# Run this command to install
+# cat extensions.list | grep -v '^#' | xargs -L1 code --install-extension
+
+dbaeumer.vscode-eslint
+eamodio.gitlens
+esbenp.prettier-vscode
+PKief.material-icon-theme
+shd101wyy.markdown-preview-enhanced
+Valiantsin.operatormonodarktheme
+vscodevim.vim
+wix.vscode-import-cost
+wooodhead.vscode-wrap-console-log-simple
